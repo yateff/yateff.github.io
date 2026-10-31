@@ -1,0 +1,12 @@
+---
+layout: default
+title: Posts
+---
+<ul class="posts">
+{% for post in site.posts %}
+  <li>
+    <span class="meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

@@ -1,15 +1,10 @@
 ---
-layout: post
-title: "Hello, world"
+title: Hello, world
 ---
-This is my first post. To add a new one, create a file in `_posts/` named
-`YYYY-MM-DD-title.md` with this at the top:
 
-```
----
-layout: post
-title: "Your title"
----
-```
+This is the first post. Edit or delete it, then add new posts as files in
+the `_posts` folder named `YYYY-MM-DD-title.md`.
 
-Then write in Markdown below it.
+```python
+print("hello")
+```

@@ -1,8 +1,21 @@
-title: My Blog
-description: Notes on code, projects, and things I'm learning.
-author: Youssef Atef
-# For a project repo, set baseurl: "/repo-name". For username.github.io, leave it empty.
+title: Youssef Atef
+description: Notes on computer science, machine learning, and things I'm building.
+url: "https://yateff.github.io"
 baseurl: ""
-url: ""
+
 markdown: kramdown
 permalink: /:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - LICENSE
